@@ -54,7 +54,7 @@ export const OverviewFlow = () => {
         fitView
         attributionPosition="top-right"
     >
-      <MiniMap
+      {/* <MiniMap
         nodeStrokeColor={(n) => {
           if (n.style?.background) return n.style.background;
           if (n.type === 'input') return '#0041d0';
@@ -69,7 +69,7 @@ export const OverviewFlow = () => {
           return '#fff';
         }}
         nodeBorderRadius={2}
-      />
+      /> */}
       <Controls />
       <Background color="#aaa" gap={16} />
     </ReactFlow>
