@@ -1,0 +1,44 @@
+.react-flow__node{
+    background-color: #333F48;
+    border: 2px solid #333F48;
+    border-radius: 10px;
+    color: #FFFFFF;
+}
+
+.card{
+    background-color: #333F48
+}
+
+.card-header{
+    /* background-color: #333F48 ; */
+    padding-top: .25em;
+    padding-bottom: .25em;
+    color: #FFFFFF;
+    /* border-radius: 10px 10px 0px 0px; */
+}
+
+.card-body{
+    padding-top: .5em;
+    padding-bottom: .5em;
+    background-color: #FFFFFF ;
+    color: black;
+    min-width: 172px;
+    /* border: 1px solid #FFFFFF; */
+    border-radius: 0px 0px 8px 8px;
+    /* border-radius: 10px 10px 0px 0px; */
+}
+
+.react-flow__handle.source{
+    bottom:-15%; 
+    background-color: #FFD179;
+    border: none;
+    min-height: 20px;
+    min-width: 10px;
+    border-radius: 0px;
+}
+
+.react-flow__handle.source > div{
+    color: black;
+    pointer-events: none;
+    font-size: small;
+}
